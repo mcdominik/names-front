@@ -8,6 +8,8 @@ import axios from "axios";
 import { QueryClient, QueryClientProvider } from "react-query";
 
 axios.defaults.baseURL = "http://localhost:3000/";
+// axios.defaults.baseURL = "https://namesbackend.toadres.pl";
+
 const queryClient = new QueryClient();
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
