@@ -19,9 +19,12 @@ npm run dev
 
 app should start on the port 5173
 
+frontend is also hosted on vercel -> https://names-front.vercel.app/
+
 ### backend
 
 ```bash
 npm run start:dev
 ```
 app should start on the port 3000
+
