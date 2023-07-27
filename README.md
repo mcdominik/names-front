@@ -4,8 +4,8 @@
 
 ## Roadmap:
 
-- names-front: It is the frontend of the app, created with React + Vite
-- names-backend: It is the backend of the app, created with Nest.js
+- names-front: It is the frontend of the app, created with React + Vite 
+- names-backend [[in another repo]](https://github.com/mcdominik/names-backend): It is the backend of the app, created with Nest.js
 
 ## How to run 🚀
 
@@ -13,12 +13,6 @@ Project is using mongoDB (atlas), so you need host and password to connect with 
 
 ### frontend
 
-cd to the frontend dir: 
-
-```bash
-cd names-frontend
-```
-then
 ```bash
 npm run dev
 ```
@@ -27,12 +21,6 @@ app should start on the port 5173
 
 ### backend
 
-cd to the backend dir: 
-
-```bash
-cd backend-backend
-```
-then
 ```bash
 npm run start:dev
 ```
