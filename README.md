@@ -1,27 +1,39 @@
-# React + TypeScript + Vite
+# Created for recruting purpouses.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+📫 Please read my mail before examining the project.
 
-Currently, two official plugins are available:
+## Roadmap:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- names-front: It is the frontend of the app, created with React + Vite
+- names-backend: It is the backend of the app, created with Nest.js
 
-## Expanding the ESLint configuration
+## How to run 🚀
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Project is using mongoDB (atlas), so you need host and password to connect with it, they are in .env file (I attached it to the mail, also with JWT_SECRET)
 
-- Configure the top-level `parserOptions` property like this:
+### frontend
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+cd to the frontend dir: 
+
+```bash
+cd names-frontend
+```
+then
+```bash
+npm run dev
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+app should start on the port 5173
+
+### backend
+
+cd to the backend dir: 
+
+```bash
+cd backend-backend
+```
+then
+```bash
+npm run start:dev
+```
+app should start on the port 3000
